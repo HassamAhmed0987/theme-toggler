@@ -1,0 +1,86 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    transition: all;
+    transition-duration: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.checkbox1{
+    display: none;
+}
+.moon{
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    float: right;
+    display: none;
+    cursor: pointer;
+    animation: move 1s 1;
+}
+@keyframes move {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+    100%{
+        transform: rotate(360deg);
+        transform-origin: center;
+    }
+    
+}
+.sun{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+}
+.rotate{
+    animation: rotate 5s infinite;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        transform-origin: center;
+    }
+    
+}
+/* .moon:hover{
+    transition: all;
+    transition-duration: 1s;
+    transform: rotate(360deg);
+} */
+.checkbox2{
+    display: none;
+}
+input[type=checkbox]:checked ~ .content{
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+}
+input[type=checkbox]:checked ~ .sun{
+    display: none;
+}
+input[type=checkbox]:checked ~ .moon{
+    display: block;
+}
