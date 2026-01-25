@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: price;
+    src: url(./Pricedown\ Bl.otf);
+}
 
 *{
     margin: 0;
@@ -8,13 +11,13 @@
 .content{
     height: 100vh;
     width: 100%;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     transition: all;
     transition-duration: 0.4s;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
 }
 .checkbox1{
     display: none;
@@ -25,7 +28,7 @@
     top: 20px;
     right: 20px;
     font-size: 30px;
-    float: right;
+    /* float: right; */
     display: none;
     cursor: pointer;
     animation: move 1s 1;
@@ -78,9 +81,94 @@ input[type=checkbox]:checked ~ .content{
     background-color: rgb(37, 37, 37);
     color: whitesmoke;
 }
+input[type=checkbox]:checked ~ .content a{
+    color: whitesmoke;
+}
 input[type=checkbox]:checked ~ .sun{
     display: none;
 }
 input[type=checkbox]:checked ~ .moon{
     display: block;
+}
+
+
+header{
+    /* margin: 20px 0; */
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.brandname{
+    text-decoration: none;
+    color: black;
+    margin: 10px 10px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 100px;
+    font-family: price;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+.nav-items{
+    display: inline-block;
+    list-style-type: none;
+}
+.nav-item{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+}
+.nav-link{
+    font-size: 20px;
+}
+section{
+    margin: 50px 0;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+.img-container{
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.intro{
+    align-self: center;
+}
+.intro h1{
+    margin: 50px 0;
+    font-size: 50px;
+    font-family: price;
+}
+.intro p{
+    margin: 50px 0;
+    line-height: 30px;
+    font-size: larger;
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: whitesmoke;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
 }
