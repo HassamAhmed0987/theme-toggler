@@ -131,7 +131,7 @@ a{
     font-size: 20px;
 }
 section{
-    margin: 50px 0;
+    margin: 50px 100;
 }
 
 .container2{
@@ -142,8 +142,8 @@ section{
 }
 .img-container{
     border: 5px solid black;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     overflow: hidden;
     border-radius: 50%;
     
@@ -171,4 +171,66 @@ img{
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
+}
+.scroll{
+    margin: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: down 2s infinite;
+}
+.scroll p{
+    margin: 10px 0;
+}
+@keyframes down {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+.section2{
+    margin: 50px 100px;
+}
+.skills{
+    margin-top: 20px;
+    text-align: center;
+}
+.skills h1{
+    font-size: 50px;
+    font-family: price;
+    margin: 20px;
+}
+.skills p{
+    font-size: larger;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.card{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 300px;
+    
+}
+.card h1{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 15px;
+}
+.card p span{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 2px 5px;
 }
