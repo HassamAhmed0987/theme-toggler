@@ -1,7 +1,9 @@
-/* @font-face {
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@font-face {
     font-family: price;
     src: url(./Pricedown\ Bl.otf);
-} */
+}
 
 *{
     margin: 0;
@@ -11,12 +13,14 @@
 body{
     /* font-family: 'Courier New', Courier, monospace; */
     /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: popins;
+    /* font-family: popins; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "JetBrains Mono", monospace; */
 }
 .content{
     /* height: 100vh; */
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     /* background-color: whitesmoke; */
     transition: all;
     transition-duration: 0.4s;
@@ -96,8 +100,9 @@ input[type=checkbox]:checked ~ .sun{
 input[type=checkbox]:checked ~ .moon{
     display: block;
 }
-
-
+/* -------------------------------------------------------------------------------------------- */
+                                           /* Header */
+/* -------------------------------------------------------------------------------------------- */
 header{
     /* margin: 20px 0; */
 }
@@ -114,13 +119,13 @@ header{
     justify-content: space-between;
 }
 .brandname{
+    font-family: price;
     text-decoration: none;
     color: black;
     margin: 10px 10px;
     font-size: 40px;
     font-weight: bold;
     margin-left: 100px;
-    font-family: price;
 }
 a{
     text-decoration: none;
@@ -143,6 +148,9 @@ a{
 .nav-link{
     font-size: 20px;
 }
+/* -------------------------------------------------------------------------------------------- */
+                                           /* Hero Section */
+/* -------------------------------------------------------------------------------------------- */
 section{
     margin: 50px 100;
 }
@@ -185,7 +193,6 @@ img{
 .intro h1{
     margin: 50px 0;
     font-size: 50px;
-    font-family: price;
 }
 .intro p{
     margin: 50px 0;
@@ -198,6 +205,11 @@ img{
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
+}
+.btn:hover{
+    transition: all;
+    transition-duration: 0.5s;
+    background-color: rgb(0, 0, 0);
 }
 .scroll{
     margin: 20px 100px;
@@ -221,6 +233,9 @@ img{
     }
     
 }
+/* -------------------------------------------------------------------------------------------- */
+                                           /* Skills Section */
+/* -------------------------------------------------------------------------------------------- */
 .section2{
     margin: 50px 100px;
 }
@@ -230,7 +245,6 @@ img{
 }
 .skills h1{
     font-size: 50px;
-    font-family: price;
     margin: 20px;
 }
 .skills p{
@@ -274,6 +288,9 @@ img{
         0 0 25px gray,
         0 20px 40px rgba(0, 0, 0, 0.4);
 }
+/* -------------------------------------------------------------------------------------------- */
+                                        /* Experience Section */
+/* -------------------------------------------------------------------------------------------- */
 
 .experience-section{
     margin: 100px 100px;
@@ -282,7 +299,6 @@ img{
     /* text-align: center; */
 }
 .expheading{
-    font-family: price;
     /* font-family: 'Courier New', Courier, monospace; */
     font-size: 50px;
     margin-top: 0;
@@ -331,7 +347,9 @@ img{
         0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
-
+/* -------------------------------------------------------------------------------------------- */
+                                        /* Contact Section */
+/* -------------------------------------------------------------------------------------------- */
 
 
 .contact{
@@ -406,8 +424,9 @@ input[type = submit]{
     color: white;
     font-weight: bold;
 }
-
-
+/* -------------------------------------------------------------------------------------------- */
+                                           /* Footer Section */
+/* -------------------------------------------------------------------------------------------- */
 footer{
     text-align: center;
 }
