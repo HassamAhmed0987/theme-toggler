@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: price;
     src: url(./Pricedown\ Bl.otf);
-}
+} */
 
 *{
     margin: 0;
@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 .content{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     /* background-color: whitesmoke; */
     transition: all;
@@ -95,6 +95,13 @@ input[type=checkbox]:checked ~ .moon{
 header{
     /* margin: 20px 0; */
 }
+.hero{
+    margin-top: 100px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .container{
     display: flex;
@@ -146,7 +153,21 @@ section{
     height: 400px;
     overflow: hidden;
     border-radius: 50%;
-    
+    box-shadow:
+        0 0 25px 10px gray,
+        0 20px 40px 10px rgba(0, 0, 0, 0.4);
+    animation: movement 5s infinite;
+}
+@keyframes movement {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translate(0);
+    }
 }
 img{
     width: 100%;
@@ -219,12 +240,15 @@ img{
     padding: 10px 20px;
     border-radius: 20px;
     width: 300px;
-    
+    height: 200px;
 }
 .card h1{
     font-size: 30px;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin: 10px 0;
+}
+.fa-code{
+    font-size: 30px;
 }
 .card p{
     font-size: 15px;
@@ -234,3 +258,127 @@ img{
     border-radius: 15px;
     padding: 2px 5px;
 }
+.card:hover{
+    transition: all;
+    transition-duration: 0.7s;
+    transform: scale(1.06);
+    color: black;
+    background-color: rgb(255, 248, 248);
+    box-shadow:
+        0 0 25px gray,
+        0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.experience-section{
+    margin: 100px 100px;
+}
+.experience{
+    /* text-align: center; */
+}
+.expheading{
+    font-family: price;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 50px;
+    margin-top: 0;
+    margin: 30px 0;
+    text-align: center;
+}
+.expcontent{
+    font-size: larger;
+    text-align: center;
+    margin: 30px 0;
+}
+.exp-card{
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+.cardhead{
+    display: flex;
+    justify-content: space-between;
+}
+.expmainhead{
+    font-size: 40px;
+    margin: 10px 0;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.expsubhead{
+    margin: 10px 0;
+}
+.expspan{
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:2px 5px;
+}
+.expskills{
+    margin: 10px 0;
+}
+.exp-card:hover{
+    transition: all;
+    transition-duration: 0.7s;
+    transform: scale(1.06);
+    color: black;
+    background-color: rgb(255, 248, 248);
+    box-shadow:
+        0 0 25px gray,
+        0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+.contact{
+    margin: 50px 100px;
+}
+.contacthead{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 0;
+}
+.contactpara{
+    font-size: larger;
+    text-align: center;
+    margin: 30px 0;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+}
+.contact1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 45%;
+}
+.contact-card{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.cardheading{
+    font-size: 30px;
+}
+.cardpara{
+    font-size: large;
+    letter-spacing: 2px;
+}
+.contact2{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 45%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+input{
+    border: none;
+    background-color: rgba(128, 128, 128, 0.281);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
