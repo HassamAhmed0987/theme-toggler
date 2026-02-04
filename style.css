@@ -108,7 +108,7 @@ header{
 }
 .hero{
     margin-top: 100px;
-    height: 70vh;
+    /* height: 70vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,12 +148,73 @@ a{
 .nav-link{
     font-size: 20px;
 }
-/* -------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+
+.mobile-menu{
+    display: none;
+}
+
+
+.checkbox{
+    display: none;
+}
+.hamburger{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    /* margin-right: 100px; */
+}
+.cross{
+    display: none;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+.mobile-menu-icon{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
+
+.mobile-items{
+    display: none;
+}
+.checkbox:checked ~ .mobile-items{
+    transition: all;
+    transition: 0.5s;
+    display: block;
+}
+.checkbox:checked ~ .cross{
+    display: block;
+    transition: all;
+    transition: 0.5s;
+}
+.checkbox:checked ~ .hamburger{
+    display: none;
+    transition: all;
+    transition: 0.5s;
+}
+.mobile-items{
+    list-style-type: none;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    background-color: rgba(128, 128, 128, 0.637);
+}
+.mobile-item{
+    margin: 10px 0;
+}
+
+
+
+ /* -------------------------------------------------------------------------------------------- */
                                            /* Hero Section */
 /* -------------------------------------------------------------------------------------------- */
-section{
-    margin: 50px 100;
-}
 
 .container2{
     display: flex;
@@ -440,6 +501,7 @@ footer{
 .para2{
     margin-top: 20px;
 }
+
 
 
 

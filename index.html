@@ -6,11 +6,12 @@
     <title>Background Toggler</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
 </head>
 <body>
-    <input type="checkbox" name="checkbox" id="checkbox" class="checkbox1">
-    <label for="checkbox" class="sun"><i class="fa-solid fa-sun rotate"></i></label>
-    <label for="checkbox" class="moon"><i class="fa-solid fa-moon "></i></label>
+    <input type="checkbox" name="checkbox1" id="checkbox1" class="checkbox1">
+    <label for="checkbox1" class="sun"><i class="fa-solid fa-sun rotate"></i></label>
+    <label for="checkbox1" class="moon"><i class="fa-solid fa-moon "></i></label>
     <div class="content">
         <header>
             <nav class="container">
@@ -24,6 +25,17 @@
                     </ul>
                 </div>
             </nav>
+            <div class="mobile-menu">
+                <input type="checkbox" class="checkbox" name="checkbox" id="checkbox">
+                <label class="hamburger mobile-menu-icon" for="checkbox"><i class="fa-solid fa-bars"></i></label>
+                <label class="cross mobile-menu-icon" for="checkbox"><i class="fa-solid fa-x"></i></label>
+                <ul class="mobile-items">
+                    <li class="mobile-item"><a class="mobile-link" href="">Home</a></li>
+                    <li class="mobile-item"><a class="mobile-link" href="">Skills</a></li>
+                    <li class="mobile-item"><a class="mobile-link" href="">Experience</a></li>
+                    <li class="mobile-item"><a class="mobile-link" href="">Contact</a></li>
+                </ul>
+            </div>
         </header>
         <section class="hero">
             <div class="container2">

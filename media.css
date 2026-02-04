@@ -1,0 +1,327 @@
+@media (max-width: 840px) {
+    .content{
+        width: 100%;
+    }
+    /* ------------------------------------------------------------------------------ */
+    .brandname{
+        font-family: price;
+        text-decoration: none;
+        color: black;
+        margin: 10px 10px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 100px;
+    }
+    .nav{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    /* ----------------------------------------------------------------------------- */
+    .hero{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .container2{
+        flex-direction: column;
+    }
+    .img-container{
+        width: 200px;
+        height: 200px;
+    }
+    .intro p{
+        margin: 50px 0;
+        line-height: 20px;
+        font-size: large;
+    }
+    .intro h1{
+        margin: 50px 0;
+        font-size: 30px;
+    }
+    /* ------------------------------------------------------------------------------------------- */
+    .skills h1{
+        font-size: 30px;
+        margin: 20px;
+    }
+    .skills p{
+        font-size: large;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin: 20px 0;
+    }
+    .card{
+        border: 1px solid black;
+        padding: 10px 20px;
+        border-radius: 20px;
+        width: 100%;
+    }
+    .card h1{
+        font-size: 20px;
+        margin-top: 0;
+        margin: 10px 0;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    /* ------------------------------------------------------------------------------------------- */
+    .expheading{
+        font-size: 30px;
+        margin-top: 0;
+        margin: 30px 0;
+        text-align: center;
+    }
+    .expcontent{
+        font-size: large;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .cardhead{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .expmainhead{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .expsubhead{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .exppara{
+        font-size: smaller;
+    }
+    .expskills{
+        font-size: smaller;
+    }
+    .expspan{
+        font-size: smaller;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding:2px 5px;
+    }
+    /* -------------------------------------------------------------------------------------------------------- */
+    .contacthead{
+        font-size: 30px;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .contactpara{
+        font-size: large;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .contacts{
+        display: flex;
+        row-gap: 10px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .contact1{
+        width: 100%;
+    }
+    .contact2{
+        width: 100%;
+    }
+    .cardheading{
+        font-size: 20px;
+    }
+    .cardpara{
+        font-size: smaller;
+    }
+    /* ---------------------------------------------------------------------------------- */
+    .footerhead{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .para1{
+        font-size: smaller;
+    }
+    .para2{
+        font-size: smaller;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 400px) and (max-width: 800px) {
+    section{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+    /* ------------------------------------------------------------------------------ */
+    .brandname{
+        font-family: price;
+        text-decoration: none;
+        color: black;
+        margin: 10px 10px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    .nav{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .hamburger{
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        right: 50px;
+    /* margin-right: 100px; */
+    }
+    .cross{
+        display: none;
+        font-size: 30px;
+        position: absolute;
+        top: 20px;
+        right: 50px;
+    }
+    /* ----------------------------------------------------------------------------- */
+    .hero{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .container2{
+        flex-direction: column;
+        margin: 20px 20px;
+    }
+    .img-container{
+        width: 200px;
+        height: 200px;
+    }
+    .intro p{
+        margin: 50px 0;
+        line-height: 20px;
+        font-size: large;
+    }
+    .intro h1{
+        margin: 50px 0;
+        font-size: 30px;
+    }
+    /* ------------------------------------------------------------------------------------------- */
+    .section2{
+        margin: 50px 20px;
+    }
+    .skills h1{
+        font-size: 30px;
+        margin: 20px;
+    }
+    .skills p{
+        font-size: large;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin: 20px 0;
+    }
+    .card{
+        border: 1px solid black;
+        padding: 10px 20px;
+        border-radius: 20px;
+        width: 90%;
+    }
+    .card h1{
+        font-size: 20px;
+        margin-top: 0;
+        margin: 10px 0;
+    }
+    .card p{
+        font-size: 10px;
+    }
+    /* ------------------------------------------------------------------------------------------- */
+    .experience-section{
+        margin: 100px 20px;
+    }
+    .expheading{
+        font-size: 30px;
+        margin-top: 0;
+        margin: 30px 0;
+        text-align: center;
+    }
+    .expcontent{
+        font-size: large;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .cardhead{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .expmainhead{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .expsubhead{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .exppara{
+        font-size: smaller;
+    }
+    .expskills{
+        font-size: smaller;
+    }
+    .expspan{
+        font-size: smaller;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding:2px 5px;
+    }
+    /* -------------------------------------------------------------------------------------------------------- */
+    .contact{
+        margin: 50px 20px;
+    }
+    .contacthead{
+        font-size: 30px;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .contactpara{
+        font-size: large;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .contacts{
+        display: flex;
+        row-gap: 10px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .contact1{
+        width: 100%;
+    }
+    .contact2{
+        width: 100%;
+    }
+    .cardheading{
+        font-size: 20px;
+    }
+    .cardpara{
+        font-size: smaller;
+    }
+    /* ------------------------------------------------------------------------------------------------- */
+    .footerhead{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .para1{
+        font-size: smaller;
+    }
+    .para2{
+        font-size: smaller;
+        margin-top: 20px;
+    }
+}
