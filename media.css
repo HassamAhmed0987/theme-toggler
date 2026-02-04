@@ -148,7 +148,7 @@
         margin-top: 20px;
     }
 }
-@media (min-width: 200px) and (max-width: 800px) {
+@media (min-width: 200px) and (max-width: 500px) {
     section{
         width: 100%;
     }
@@ -194,7 +194,7 @@
     } 
     .container2{
         flex-direction: column;
-        margin: 20px 20px;
+        margin: 20px 0;
     }
     .img-container{
         width: 200px;
@@ -211,7 +211,7 @@
     }
     /* ------------------------------------------------------------------------------------------- */
     .section2{
-        margin: 50px 20px;
+        margin: 50px 0px;
     }
     .skills h1{
         font-size: 30px;
@@ -242,7 +242,7 @@
     }
     /* ------------------------------------------------------------------------------------------- */
     .experience-section{
-        margin: 100px 20px;
+        margin: 100px 0px;
     }
     .expheading{
         font-size: 30px;
@@ -282,7 +282,7 @@
     }
     /* -------------------------------------------------------------------------------------------------------- */
     .contact{
-        margin: 50px 20px;
+        margin: 50px 0px;
     }
     .contacthead{
         font-size: 30px;
